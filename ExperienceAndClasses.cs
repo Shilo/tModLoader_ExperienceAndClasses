@@ -12,10 +12,13 @@ using System.Reflection;
 namespace ExperienceAndClasses {
     /* For Sync Packets */
     enum PacketType : byte {
-
+        
     }
 
     class ExperienceAndClasses : Mod {
+        //active abilities
+        public static ModHotKey[] HOTKEY_ABILITY = new ModHotKey[Constants.NUMBER_OF_ABILITY_SLOTS];
+        public static ModHotKey HOTKEY_ALTERNATE_EFFECT;
 
     }
 }
